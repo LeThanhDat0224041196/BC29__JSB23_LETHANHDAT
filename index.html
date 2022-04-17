@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính lương nhân viên</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Số ngày làm</label>
+                  <input id="nhapNgaylam" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="">Tiền lương 1 ngày</label>
+                  <select id="luong1Ngay" class="form-control">
+                    <option value="100.000">100.000</option>
+                    <!-- <option value="20">20%</option>
+                    <option value="30">30%</option> -->
+                  </select>
+                </div>
+                <!-- <div class="form-group">
+                  <label for="">Muốn chia bao nhiêu người?</label>
+                  <input type="text" class="form-control" />
+                </div> -->
+                <button id="tbTienluong" class="btn btn-danger">Tiền lương</button>
+              </div>
+              <div id="thongBao"class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính giá trị trug bình cả 5 số thực</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Số thực 1</label>
+                  <input id="soThuc1" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="">Số thực 2</label>
+                    <input id="soThuc2" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="">Số thực 3</label>
+                    <input id="soThuc3" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="">Số thực 4</label>
+                    <input id="soThuc4" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="">Số thực 5</label>
+                    <input id="soThuc5" type="text" class="form-control" />
+                </div>
+                <!-- <div class="form-group">
+                  <label for="">Bạn muốn típ bao nhiêu?</label>
+                  <select class="form-control">
+                    <option value="10">10%</option>
+                    <option value="20">20%</option>
+                    <option value="30">30%</option>
+                  </select>
+                </div> -->
+                <!-- <div class="form-group">
+                  <label for="">Muốn chia bao nhiêu người?</label>
+                  <input type="text" class="form-control" />
+                </div> -->
+                <button id="giatriTBsothuc" class="btn btn-danger">Tính</button>
+              </div>
+              <div id="giatriTB" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính tiền quy đổi</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Nhập USD</label>
+                  <input id = "nhapUSD" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="">USD quy đổi</label>
+                  <select id="vndtoUSD" class="form-control">
+                    <option value="23.500">23.500</option>
+                    <!-- <option value="20">20%</option>
+                    <option value="30">30%</option> -->
+                  </select>
+                </div>
+                <!-- <div class="form-group">
+                  <label for="">Muốn chia bao nhiêu người?</label>
+                  <input type="text" class="form-control" />
+                </div> -->
+                <button id="tinhquydoiVND" class="btn btn-danger">Quy đổi USD</button>
+              </div>
+              <div id="tienquydoiVND" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính chu vi, diện tích hình chữ nhật</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Chiều dài</label>
+                  <input id="chieuDai" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="">Chiều rộng</label>
+                    <input id="chieuRong" type="text" class="form-control" />
+                </div>
+                <!-- <div class="form-group">
+                  <label for="">Bạn muốn típ bao nhiêu?</label>
+                  <select class="form-control">
+                    <option value="10">10%</option>
+                    <option value="20">20%</option>
+                    <option value="30">30%</option>
+                  </select>
+                </div> -->
+                <!-- <div class="form-group">
+                  <label for="">Muốn chia bao nhiêu người?</label>
+                  <input type="text" class="form-control" />
+                </div> -->
+                <button id="tinhCVDT" class="btn btn-danger">Tính</button>
+              </div>
+              <div id="CV" class="card-footer text-muted"></div>
+              <div id="DT" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tính tổng 2 ký số</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label for="">Nhập số thứ 1</label>
+                  <input id="soThu1" type="text" class="form-control" />
+                </div>
+                <!-- <div class="form-group">
+                  <label for="">Bạn muốn típ bao nhiêu?</label>
+                  <select class="form-control">
+                    <option value="10">10%</option>
+                    <option value="20">20%</option>
+                    <option value="30">30%</option>
+                  </select>
+                </div> -->
+                <!-- <div class="form-group">
+                  <label for="">Muốn chia bao nhiêu người?</label>
+                  <input type="text" class="form-control" />
+                </div> -->
+                <button id="tong2kyso" class="btn btn-danger">Tính tổng 2 ký số</button>
+              </div>
+              <div id="tbSo" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+
+
+      
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
